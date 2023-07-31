@@ -50,4 +50,5 @@ To get the expected behavior, you can either:
 Then:
 
 1. `docker-compose down -v && docker-compose up`
+1. `docker-compose exec -it solr post -c techproducts example/exampledocs/ipod_video.xml`
 1. Retry the curl command
